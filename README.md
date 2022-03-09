@@ -6,8 +6,7 @@ rgb 匹配：[蓝](https://rgb-matcher.vercel.app/?r=0-205&g=0-208&b=60-255) [�
 
 ## 使用
 
-- 有 python 环境可直接运行 `card-master.py`
-- [Github Releases](https://github.com/edtam/lol-card-master/releases) 下载 exe 文件运行
+[Github Releases](https://github.com/edtam/lol-card-master/releases) 下载 exe 文件运行
 
 ## 自行修改与构建
 
@@ -16,8 +15,8 @@ rgb 匹配：[蓝](https://rgb-matcher.vercel.app/?r=0-205&g=0-208&b=60-255) [�
 pip install pipenv
 cd project
 pipenv install
+pipenv run py card-master.py
 
 # 构建
-pipenv shell
-pyinstaller -F card-master.py
+pipenv run pyinstaller -F card-master.py
 ```
